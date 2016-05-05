@@ -17,6 +17,16 @@ git add .gitignore
 git push origin master
 
 #modify origin (when forked from others)
-git remote set-url origin https://github.com/schiluka/spring-rest-maven.git
+git remote set-url origin https://github.com/@user/@repo.git
 
 
+###Create a repo in github and follow below steps to add/commit files
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/@user/@repo.git
+git push -u origin master
+
+###push an existing repository from the command line
+git remote add origin https://github.com/@user/@repo.git
+git push -u origin master
