@@ -28,6 +28,11 @@ git add .gitignore
 git push origin master
 ```
 
+####pull from existing repo
+```
+git pull
+```
+
 ####modify origin (when forked from others)
 ```
 git remote set-url origin https://github.com/@user/@repo.git
